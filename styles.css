@@ -28,3 +28,22 @@ body > ui-view > div > portal-menu{
 #lista-modulos-aulas > div > header > a.col.col-s-12.block > span.nome-fase.ng-binding{
   color: white !important;
 }
+
+/* removendo elemento de anuncio para teste apenas */
+body > ui-view > div.content-wrapper.ng-scope.ng-isolate-scope > portal-header > header > div > div > div > button{
+  visibility: hidden !important;
+  position: absolute !important;
+}
+#main-nav > ul > li > a{
+  color: #0f172a !important;
+}
+
+body > ui-view > portal-header > header > div > div > div > button{
+  visibility: hidden !important;
+  position: absolute !important;
+}
+
+body > ui-view > div > section > div > div > div > div.liberar-curso-container.ng-scope{
+  visibility: hidden !important;
+  position: absolute !important;
+}
