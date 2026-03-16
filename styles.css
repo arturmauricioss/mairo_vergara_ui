@@ -1,6 +1,5 @@
 body{
   background-color: silver !important;
-  color:white !important;
 }
 header.main-header{
   color:white !important;
@@ -34,8 +33,8 @@ body > ui-view > div.content-wrapper.ng-scope.ng-isolate-scope > portal-header >
   visibility: hidden !important;
   position: absolute !important;
 }
-#main-nav > ul > li > a{
-  color: #0f172a !important;
+#main-nav > ul > li > a, #main-nav > ul{
+  background-color: #0f172a !important;
 }
 
 body > ui-view > portal-header > header > div > div > div > button{
