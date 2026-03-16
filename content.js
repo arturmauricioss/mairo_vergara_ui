@@ -1,0 +1,1 @@
+console.log("Mairo UI extension carregada");

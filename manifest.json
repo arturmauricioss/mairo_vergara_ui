@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Mairo UI Upgrade",
+  "version": "1.0",
+  "description": "Melhora o visual do curso Mairo Vergara",
+  "content_scripts": [
+    {
+      "matches": ["https://curso.mairovergara.com/*"],
+      "exclude_matches": ["https://curso.mairovergara.com/login*"],
+      "css": ["styles.css"],
+      "js": ["content.js"]
+    }
+  ]
+}

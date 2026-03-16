@@ -1,0 +1,30 @@
+body{
+  background-color: silver !important;
+  color:white !important;
+}
+header.main-header{
+  color:white !important;
+  background: linear-gradient(145deg, #cad0db, #0f172a) !important;
+}
+div.custom-select__trigger{
+  background-color: transparent !important;
+}
+
+#toggleMenuButton > div.user-assistant-popover::after, .user-assistant:after{
+  border-top: 4px solid #fff !important;
+} 
+
+body > ui-view > div > portal-menu{
+  background-color: #0f172a !important;
+  color: white !important;
+}
+#main-nav > ul > li > a{
+  color: white !important;
+}
+
+#lista-modulos-aulas > div > header{
+  background-color: #0f172a !important;
+}
+#lista-modulos-aulas > div > header > a.col.col-s-12.block > span.nome-fase.ng-binding{
+  color: white !important;
+}
